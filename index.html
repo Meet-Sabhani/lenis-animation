@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/lenis@1.1.13/dist/lenis.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .grid > div {
+        grid-row: var(--r);
+        grid-column: var(--c);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="w-full bg-zinc-900">
+      <div class="grid grid-cols-8 grid-rows-20 gap-2 overflow-hidden">
+        <div class="elem col-span-1 row-span-1" style="--r: 1; --c: 3">
+          <img src="./images/image1.jpg" alt="Image 1" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 1; --c: 7">
+          <img src="./images/image2.jpg" alt="Image 2" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 2; --c: 1">
+          <img src="./images/image3.jpg" alt="Image 3" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 2; --c: 5">
+          <img src="./images/image4.jpg" alt="Image 4" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 3; --c: 2">
+          <img src="./images/image5.jpg" alt="Image 5" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 3; --c: 6">
+          <img src="./images/image6.jpg" alt="Image 6" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 4; --c: 4">
+          <img src="./images/image7.jpg" alt="Image 7" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 4; --c: 8">
+          <img src="./images/image8.jpg" alt="Image 8" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 5; --c: 1">
+          <img src="./images/image9.jpg" alt="Image 9" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 5; --c: 7">
+          <img src="./images/image10.jpg" alt="Image 10" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 6; --c: 3">
+          <img src="./images/image11.jpg" alt="Image 11" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 6; --c: 5">
+          <img src="./images/image12.jpg" alt="Image 12" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 7; --c: 2">
+          <img src="./images/image13.jpg" alt="Image 13" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 7; --c: 6">
+          <img src="./images/image14.jpg" alt="Image 14" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 8; --c: 4">
+          <img src="./images/image15.jpg" alt="Image 15" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 8; --c: 8">
+          <img src="./images/image16.jpg" alt="Image 16" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 9; --c: 1">
+          <img src="./images/image1.jpg" alt="Image 1" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 9; --c: 7">
+          <img src="./images/image2.jpg" alt="Image 2" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 10; --c: 3">
+          <img src="./images/image3.jpg" alt="Image 3" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 10; --c: 5">
+          <img src="./images/image4.jpg" alt="Image 4" />
+        </div>
+      </div>
+      <div
+        class="fixed top-0 left-0 w-full h-full text-white p-5 z-50 flex flex-col justify-center items-center font-sans"
+      >
+        <h1 class="text-4xl mb-4 font-bold font-serif">
+          Thomas Vance<sup>®</sup>
+        </h1>
+        <p class="text-center font-light">並外れたファッション</p>
+      </div>
+
+      <div
+        class="w-full h-full bg-zinc-800 text-white p-8 relative z-[999] flex flex-col justify-center items-center overflow-auto"
+      >
+        <h2 class="text-3xl font-bold mb-6">About Me</h2>
+        <p class="text-lg max-w-2xl text-left leading-relaxed">
+          As a skilled React.js and Next.js developer, I bring a wealth of
+          experience in crafting dynamic and performant web applications. My
+          expertise lies in leveraging the power of these cutting-edge
+          frameworks to build scalable, efficient, and user-centric solutions.
+        </p>
+        <p class="text-lg max-w-2xl text-left leading-relaxed mt-4">
+          With React.js, I excel at creating reusable components, managing
+          complex state with hooks and context API, and optimizing render
+          performance. My proficiency extends to integrating with RESTful APIs,
+          implementing responsive designs, and ensuring cross-browser
+          compatibility.
+        </p>
+        <p class="text-lg max-w-2xl text-left leading-relaxed mt-4">
+          In Next.js, I specialize in server-side rendering (SSR), static site
+          generation (SSG), and creating optimized, SEO-friendly applications.
+          I'm adept at leveraging Next.js's file-based routing, API routes, and
+          image optimization features to deliver fast, scalable web experiences.
+        </p>
+        <p class="text-lg max-w-2xl text-left leading-relaxed mt-4">
+          My commitment to clean, maintainable code and staying updated with the
+          latest industry trends ensures that I deliver high-quality,
+          future-proof solutions for every project I undertake.
+        </p>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
